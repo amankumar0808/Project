@@ -6,7 +6,7 @@ export default function Nav(){
     return(
         <>
             <div className="verticle">
-                <img src="/logo.png" alt="logo" height={90} />
+            <a href="http://localhost:3000/dashboard/books" ><img src="/logo.png" alt="logo" height={90} /></a>
                 <div className="line"></div>
                 <div className="nav_items_container">
                     <NavLink

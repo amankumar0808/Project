@@ -14,7 +14,7 @@ export default function App() {
           <p className='header'>Books Are A Uniquely Portable Magic</p>
           <div className="buttons">
             <button className='library' onClick={()=> navigate("/dashboard")} >Enter Library</button>
-            <a href='https://www.figma.com/file/xEyokoO4VlzDyvjntlrOjL/Library-Management-System?type=design&node-id=7%3A10&mode=design&t=7qnUEAADmSKgXk7t-1' target='_blank' className='figma' >Figma Link</a>
+            
           </div>
           
       

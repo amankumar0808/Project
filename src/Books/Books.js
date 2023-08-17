@@ -5,9 +5,11 @@ import { FiSearch } from "react-icons/fi";
 import Button from '../button/button';
 import axios from 'axios';
 import {useForm} from 'react-hook-form';
+import { AiOutlinePlus } from "react-icons/ai";
 import { useState,useEffect } from 'react';
 export default function Books(){
     const {handleSubmit,register}=useForm()
+    const [add, setadd] = useState(false);
     const [myBook, setmyBook] = useState(false)
     const [page, setpage] = useState(1)
     const [text,setText] = useState('')
@@ -53,6 +55,10 @@ export default function Books(){
                 Search
             </button>
             </form>
+
+            <button className="addmember1" onClick={setadd}>
+              <AiOutlinePlus size={30} /> Add Book
+            </button>
 
             <div className='book-list'>
                 {

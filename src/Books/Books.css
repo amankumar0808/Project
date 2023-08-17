@@ -7,7 +7,7 @@ input[type=text]{
 }
 .searchbar{
     /* margin-top: 4rem; */
-    width: 160%;
+    width: 70%;
     display: flex;
     align-items: center;
     
@@ -18,14 +18,32 @@ input[type=text]{
     background: #FFF;
     box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, 0.03);
     gap: 1.125rem;
+}.addmember1{
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: solid;
+    border-width: 0.125rem;
+    border-color: #0965B8 ;
+    border-radius: 0.75rem;
+    background-color: #FFF;
+    padding: 1rem 3rem;
+    box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.12);
+    color: #0965B8;
+    font-size: 1.525rem;
+    font-weight: 500;
+    cursor: pointer;
 }
 .horizontal-flex{
     width: 87rem;
     margin-top: 4rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    gap: 2rem;
+    gap: 0rem;
 }
 .search-text{
     font-size: 1.25rem;
@@ -41,7 +59,8 @@ input[type=text]{
     gap: 1rem;
 }
 .back-next{
-    display: flex;
+    
+    display: none;
     gap: 0.825rem;
     bottom: 4rem;
     right: 4rem;

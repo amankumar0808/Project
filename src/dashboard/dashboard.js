@@ -9,7 +9,9 @@ import "./dashboard.css"
 export default function Dashboard() {
   return (
     <div className="dashboard-main-container">
+      
       <div className="nav-container">
+      
         <Nav />
       </div>
       <div className="right_container">

@@ -16,6 +16,7 @@ const Addmemberpopup = (props) => {
     .then((res)=>{console.log(res)})
     window.location.reload()
   }
+  
   return (
     <div className="box">
       <div className="dialog-wrapper" onClick={props.closeDialog}></div>
@@ -27,7 +28,7 @@ const Addmemberpopup = (props) => {
             <TextField
               {...register("name")}
               size="medium"
-              sx={{ width: "36vw" }}
+              sx={{ width: "35vw" }}
               label="Name"
               id="outlined-start-adornment"
               variant="outlined"
@@ -51,7 +52,7 @@ const Addmemberpopup = (props) => {
               variant="outlined"
             />
           </div>
-          <button className="button">Add Member</button>
+          <button className="button"> Add New Member </button>
 
           <div className="icon-container" onClick={props.closeDialog}>
             <FiX className="closeBtn" size={45} />
